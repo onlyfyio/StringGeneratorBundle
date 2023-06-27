@@ -7,10 +7,6 @@ use Vivait\StringGeneratorBundle\Model\ConfigurableGeneratorInterface;
 
 class SecureBytesGenerator implements ConfigurableGeneratorInterface
 {
-    /**
-     * @var SecureRandom
-     */
-    private $secureRandom;
     private $length = 8;
 
     /**

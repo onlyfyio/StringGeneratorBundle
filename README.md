@@ -43,7 +43,7 @@ strings(currently `high` is unavailable), `low` and `medium`. Defaults:
 ```
 
 ### `SecureBytesGenerator`
-Generates a secure random byte string using the `Symfony\Component\Security\Core\Util\SecureRandom` class. Defaults:
+Generates a secure random byte string using the `random_bytes()`. Defaults:
 
 ```php
 @Generate(generator="secure_bytes", options={"length"=8})
